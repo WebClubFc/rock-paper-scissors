@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-family: 'b titr';
+  font-size: 40px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+  font-weight: 800;
+  font-family: 'B Tabassom';
+  margin-top: 20px;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.rock {
+  background: linear-gradient(45deg, brown, rgb(230, 103, 103));
+  margin-left: 30px;
+}
+
+.paper {
+  background: linear-gradient(45deg, rgb(53, 187, 231), #afafaf);
+  margin-left: 30px;
+}
+
+.scissors {
+  background: linear-gradient(45deg, #444, #999);
+}
